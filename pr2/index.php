@@ -3,7 +3,7 @@
 $target = 'php';
 if (isset($_GET['search'])) { $target = $_GET['search'];}
 $cx = '205c1fcf769bb4263';
-$apiKey = 'AIzaSyBFUHqYSQtGf4OMRj0-bsG8JR85I9kWBLI';
+$apiKey = 'AIzaSyBFW2Z1UTOiGf4OMRj0-hNqXF485I9ktmuI';
 $url = "https://www.googleapis.com/customsearch/v1?key={$apiKey}&cx={$cx}&q={$target}";
 $curlC = curl_init();
 curl_setopt($curlC, CURLOPT_URL, $url);
